@@ -1,0 +1,303 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.textos-header{
+    font-family: 'Fredoka One', cursive;
+}
+.contenedor{
+    padding: 60px 0;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+.titulo{
+    color: #005b4f;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 60px;
+    font-family: 'Fredoka One', cursive;
+}
+header{
+    width: 100%;
+    height: 600px;
+    background: #1f4037;
+background: -webkit-linear-gradient(to right, hsla(152, 77%, 77%, 0.603), hsla(164, 35%, 19%, 0.603)), url(IMG-7639\ \(1\).JPG);
+background: linear-gradient(to right, hsla(152, 77%, 77%, 0.603), hsla(164, 35%, 19%, 0.603)), url(IMG-7639\ \(1\).JPG); 
+background-size: cover;
+background-attachment: fixed;
+position: relative;
+}
+nav{
+text-align: right;
+padding: 30px 50px 0 0;
+}
+nav > a{
+color: #ffffff;
+font-weight: 300;
+text-decoration: none;
+margin-right: 10px;
+}
+nav > a:hover{
+    text-decoration: underline;
+    }
+.wave{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+header .textos-header{
+    display: flex;
+    height:430px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.textos-header h1{
+    font-size: 70px;
+    color: #f0f0f0;
+}
+.textos-header h2{
+    font-size: 30px;
+    font-weight: 300;
+    color: #f0f0f0;
+}
+.contentedor-sobre-nosotros{
+    display: flex;
+    justify-content: space-evenly;
+}
+.imagen-about-us{
+    width: 38%;
+    height: 570px;
+    border-radius: 10%;
+}
+.sobre-nosotros .contenido-textos{
+    width: 48%;
+}
+.contenido-textos h3{
+    margin-bottom: 15px;
+}
+.contenido-textos p{
+    padding: 0px 0px 30px 15px;
+    font-weight: 300;
+    text-align: justify;
+    font-family: 'Montserrat', sans-serif;
+    color: #005b4f;
+    
+}
+.about-service{
+    background: #ffffff;
+    padding-bottom: 30px;
+}
+.servicio-cont{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+}
+.servicio-ind{
+    width:28% ;
+    text-align: center;
+}
+.servicio-ind img{
+width: 90%;
+border-radius: 20%;
+}
+.servicio-ind h3{
+    margin: 10px 0;
+}
+.servicio-ind p{
+    font-weight: 300;
+    text-align: justify;
+}
+footer{
+    padding: 50px 0 50px 0;
+    margin: auto;
+    overflow: hidden;;
+    width: 100%;
+    height: 250px;
+    background: #1f4037;  
+background: -webkit-linear-gradient(to right, hsla(152, 77%, 77%, 0.603), hsla(164, 35%, 19%, 0.603)), url(IMG-7639\ \(1\).JPG); 
+background: linear-gradient(to right, hsla(152, 77%, 77%, 0.603), hsla(164, 35%, 19%, 0.603)), url(IMG-7639\ \(1\).JPG);
+background-size: cover;
+background-attachment: local; 
+position: relative;
+}
+.contenedor-footer{
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 50px;
+    font-family: 'Montserrat', sans-serif;
+    border-bottom: 1px, solid #ccc; */
+}
+.content-foo{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.content-foo h4{
+    color: #fff;
+    border-bottom: 3px solid #4b2f3e;
+    padding-bottom:5px;
+    margin-bottom: 10px;
+}
+.content-foo p{
+   color: #ffffff;
+}
+.titulo-final{
+text-align: center;
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+ margin: 20px 0 0 0;
+color: white;
+}
+.social-bar{
+    position: fixed;
+    right: 0;
+    top: 35%;
+    font-size:1.5rem ;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    z-index: 100;
+}
+.icon{
+      color: white;
+      text-decoration: none;
+      padding: .7rem;
+      display: flex;
+      transition: all .5s;
+}
+.icon-facebook{
+    background: #2e406e;
+}
+.icon-instagram{
+    background: #642a73;
+}
+.icon-linkedin{
+background: #3f60a5;;
+}
+.icon:first-child{
+    border-radius: 1rem 0 0 0;
+}
+.icon:last-child{
+    border-radius: 0 0 0 1rem;
+}
+.icon:hover{
+    padding-right: 3rem;
+    border-radius: 1rem 0 0 1rem;
+    box-shadow: 0 0 5rem rgba(0, 0, 0, 0.42);
+}
+.img-fb{
+    width:40px; 
+    height:40px;
+}
+.img-ins{
+    width:40px; 
+    height:40px;
+}.img-lik{
+    width:40px; 
+    height:40px;
+}
+.miflia{
+    font-family: 'Fredoka One', cursive;
+    color: #005b4f;
+}
+.miflia2{
+    font-family: 'Montserrat', sans-serif;
+    color: #005b4f;
+}
+.flip-card {
+    background-color: transparent;
+    width: 150px;
+    height: 150px;
+    perspective: 500px;
+    padding: 20px 0;
+    width: 60%;
+    max-width: 500px;
+    margin: auto;
+    overflow: hidden;
+    border-radius: 20%;
+  }
+  .flip-card-inner {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.5s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  .flip-card-front-ibec{
+    background-color: #000059;
+    color: black; 
+  }
+  .flip-card-front img{
+    height: 100%;
+    height: 100%;
+  }
+  .flip-card-back {
+    background-color: #4b2f3e;
+    color: white;
+    transform: rotateY(180deg);
+    position: relative;
+    font-family: 'Fredoka One', cursive;
+    font-size: 15px;
+    padding: 20px 0;
+  }
+  .formacion{
+    color: #005b4f;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 60px;
+    font-family: 'Fredoka One', cursive;
+  }
+
+  .navbar {
+    overflow: hidden;
+    background: -webkit-linear-gradient(to right, hsla(152, 80%, 80%, 0.603), hsla(164, 35%, 19%, 0.603)), url(IMG-7639\ \(1\).JPG);    
+    padding: 15px 5px;
+    background: linear-gradient(to right, hsla(152, 80%, 80%, 0.603), hsla(164, 35%, 19%, 0.603)), url(IMG-7639\ \(1\).JPG);
+    background-size: cover;
+    background-attachment: local; 
+    position: relative;
+    transition: 0.4s;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 99;
+    font-family: 'Fredoka One', cursive;
+  }
+  .navbar a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 16px; 
+    line-height: 25px;
+    border-radius: 10px;
+  }
+  .navbar a:hover {
+    background-color: white;
+    color: #005b4f;
+    
+  }
+  .navbar-right {
+    float: right;
+    scroll-behavior: smooth;
+  }
